@@ -3,12 +3,15 @@
 Landing page de demonstração, HTML único (`index.html`), sem dependências além das fontes do Google Fonts. Não publicada.
 
 ## Estrutura
-- `index.html`: o site (hero com arcos, faixa em movimento, coleção filtrável com coração, "Qual é o seu passo", gaveta "Minha seleção", "Compre sem sair de casa" com grupo de ofertas, a loja, avaliações, contato com mapa)
+- `index.html`: o site (hero com arcos, faixa em movimento, seção "Tendência, conforto e estilo" que acompanha a rolagem (fica fixa e troca palavra e foto), categorias em arco que filtram a coleção, coleção filtrável com coração e link "Perguntar sobre este modelo" em cada foto, "Qual é o seu passo", gaveta "Minha seleção", "Compre sem sair de casa" com grupo de ofertas, a loja, avaliações, contato com mapa)
 - `Copy.txt`: texto da página
 - `design-system-futura.md` / `.html`: design system
 - `assets/`: 17 fotos otimizadas, logo "fc" sem fundo (escura e clara), favicon e imagem de compartilhamento
 - `Logo/`, `Imagens/`, `Fotos/`, `Info copy/`, `Link do ...txt`: materiais de origem
 - `Fotos/_com-rosto-nao-usadas/`: duas fotos com o rosto de pessoas na loja, que não entram no site. O `.gitignore` deixa `Imagens/`, `Fotos/` e `Info copy/` fora do git (originais de terceiros, prints com pessoas e nomes completos de avaliadores); só `index.html` e `assets/` vão para o repositório, junto com os textos e o design system
+
+## Seção que acompanha a rolagem
+A seção `#estilo` usa um bloco fixo (`position:sticky`) dentro de uma pista de 340vh (300vh no celular). O script `onStory` calcula o progresso e acende uma palavra de cada vez, trocando a foto. Com `prefers-reduced-motion` a pista some e as três fotos aparecem lado a lado. As associações palavra-foto (Tendência: tênis chunky, Conforto: mule trançada, Estilo: bota de franjas) são escolha visual da agência.
 
 ## Como funciona o catálogo
 Os modelos ficam na lista `P` dentro do `<script>` do `index.html` (arquivo, nome, tipo, cor e ocasiões). Para trocar fotos ou nomes, edite essa lista e coloque o `.jpg` em `assets/`. A seleção da cliente é guardada no `localStorage` do aparelho dela (chave `futura_sel`).

@@ -28,9 +28,17 @@ Linha de apoio: R. Prof. Azarias Ribeiro, 68 · Centro · Lavras/MG
 Sandálias · Tênis · Botas · Mules · Sapatilhas · Acessórios
 
 =====================================================
+2B. TENDÊNCIA, CONFORTO E ESTILO (seção que acompanha a rolagem)
+Título (as três palavras acendem uma de cada vez, com a foto ao lado trocando): Tendência, conforto e estilo. Linha de apoio: em cada passo. Nota visível: [ASSOCIAÇÃO ENTRE PALAVRA E MODELO A REVISAR PELA LOJA]
+Foto 1 (Tendência): Tênis chunky nude | Foto 2 (Conforto): Mule trançada off-white | Foto 3 (Estilo): Bota de franjas caramelo
+(As associações entre palavra e foto são escolha visual da agência.)
+Botão: Ver a coleção. Cada foto tem o coração "Guardar na minha seleção".
+
+=====================================================
 3. COLEÇÃO
 Seção: Coleção
 Título: O que está nas vitrines.
+Entrada por categoria: quatro arcos (Sandálias, Tênis, Botas, Mules e sapatilhas, cada um com a contagem de modelos) que filtram a coleção.
 Subtítulo: Toque no coração para guardar o que você gostou. A loja confirma o que há disponível, a numeração e as cores.
 Filtros: Tudo | Sandálias | Tênis | Botas | Mules e sapatilhas
 Peças (legenda de cada foto):
@@ -50,6 +58,7 @@ Peças (legenda de cada foto):
 - Mule preto com fivela dourada
 - Sapatilhas caramelo
 Botão de cada foto: Guardar na minha seleção
+Link de cada foto: Perguntar sobre este modelo (abre o WhatsApp com "Olá! Vi no site da Futura: [modelo]. Vocês têm? Qual numeração?")
 Nota: [NOMES DOS MODELOS, MARCAS, VALORES E ESTOQUE A CONFIRMAR] [AUTORIZAÇÃO DE USO DAS FOTOS DE PRODUTO A CONFIRMAR]
 
 =====================================================
@@ -148,3 +157,4 @@ PENDÊNCIAS [A CONFIRMAR]
 7. Autorização para usar as avaliações (nomes reduzidos)
 8. Logo em alta resolução (150 px; a demo usa uma versão ampliada, sem o fundo)
 9. A "Seleção" e o "Qual é o seu passo" sugerem modelos pela foto e pelo estilo; a loja confirma o que tem
+10. A seção "Tendência, conforto e estilo" liga cada palavra a um modelo por escolha visual da agência; a loja revisa (há uma pendência visível na seção)

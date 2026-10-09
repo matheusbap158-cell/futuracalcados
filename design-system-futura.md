@@ -63,8 +63,12 @@ Hierarquia (desktop / mobile):
 - Espaçamento (base 8): 8, 16, 24, 32, 48, 80, 120 px.
 - Movimento: faixa deslizando, selo giratório, fotos que entram em sequência, parallax leve no hero. Tudo desligado com `prefers-reduced-motion`.
 
+## Momento assinatura: Tendência, conforto e estilo
+Seção fixa que acompanha a rolagem: o título da bio da loja é dividido em três palavras que acendem uma a uma, e a foto em arco ao lado troca junto. Desliga com `prefers-reduced-motion` (as três fotos aparecem lado a lado). Categorias (Sandálias, Tênis, Botas, Mules e sapatilhas) entram como arcos com o nome sobre a foto e a contagem de modelos.
+
 ## 5. Conversão para WhatsApp
 - CTA no topo, no hero, na gaveta "Minha seleção", no "Qual é o seu passo", em "Compre sem sair de casa", no contato e no fim.
+- **Perguntar sobre este modelo**: link em cada foto que abre o WhatsApp já com o nome do modelo.
 - **Duas ferramentas**: "Minha seleção" (a cliente favorita fotos e envia a lista) e "Qual é o seu passo" (três perguntas e três sugestões). As duas terminam numa mensagem pronta.
 - Grupo de ofertas no WhatsApp como segunda porta de entrada.
 - Sem preço, desconto, prazo ou estoque prometido.
