@@ -1,0 +1,150 @@
+COPY - FUTURA CALÇADOS E ACESSÓRIOS (Lavras/MG)
+Landing page de demonstração. Público: mulheres de Lavras e região que compram calçado feminino pela loja, pelo Instagram e pelo WhatsApp. Tom: moderno, leve e próximo, com cara de revista de moda; poucas palavras e a foto como protagonista.
+Dados reais usados: Google Maps (4,5 com 8 avaliações, endereço, telefone, "retirada na loja" e "entrega", "empresa de empreendedoras", "acolhe a comunidade LGBTQ+", abre às 9h, três avaliações), bio do Instagram ("Tendência, conforto e estilo em cada passo", "Compre sem sair de casa"), respostas da dona às avaliações ("calçados femininos, modelos confortáveis e um atendimento que faça você se sentir em casa"), link do grupo de ofertas no WhatsApp, 17 fotos e a logo.
+Sem preço, sem desconto, sem prazo de entrega, sem estoque ou numeração prometidos.
+As fotos mostram produtos de marcas parceiras (Sua Cia, Karmelia, Via Scarpa e outras); o site não lista marcas até a loja confirmar.
+Duas fotos com o rosto de pessoas dentro da loja não foram usadas.
+Estrutura: Padrão de Qualidade das Demos (identidade própria, duas ferramentas que levam ao WhatsApp, conteúdo real, pendências visíveis).
+
+=====================================================
+MENU
+Início | Coleção | Qual é o seu passo | Compre sem sair de casa | A loja | Contato
+Botão do topo: Minha seleção (com contador) | Falar no WhatsApp
+
+=====================================================
+1. HERO
+Selo: 4,5 no Google · 8 avaliações · Lavras/MG
+Título: Tendência, conforto e estilo em cada passo.
+Subtítulo: Calçados e acessórios femininos, em Lavras.
+Texto: Escolha pelo site, favorite os modelos de que gostou e fale com a loja pelo WhatsApp.
+Botão principal: Ver a coleção
+Botão secundário: Falar no WhatsApp
+Selo giratório: Compre sem sair de casa
+Etiquetas nas fotos: Mule | Tênis | Sandália
+Linha de apoio: R. Prof. Azarias Ribeiro, 68 · Centro · Lavras/MG
+
+=====================================================
+2. FAIXA EM MOVIMENTO
+Sandálias · Tênis · Botas · Mules · Sapatilhas · Acessórios
+
+=====================================================
+3. COLEÇÃO
+Seção: Coleção
+Título: O que está nas vitrines.
+Subtítulo: Toque no coração para guardar o que você gostou. A loja confirma o que há disponível, a numeração e as cores.
+Filtros: Tudo | Sandálias | Tênis | Botas | Mules e sapatilhas
+Peças (legenda de cada foto):
+- Mule trançada off-white (duas fotos)
+- Sandália de salto bloco caramelo claro e sandália de salto bloco caramelo
+- Rasteira com fivelas douradas
+- Slide marrom-escuro com tachas douradas
+- Tênis branco e nude
+- Tênis branco
+- Tênis chunky nude
+- Bota de franjas caramelo
+- Botinha preta de couro
+- Botinha caramelo com fivela
+- Bota de cano longo preta
+- Botinha preta de salto fino com fivela dourada
+- Bota de franjas telha
+- Mule preto com fivela dourada
+- Sapatilhas caramelo
+Botão de cada foto: Guardar na minha seleção
+Nota: [NOMES DOS MODELOS, MARCAS, VALORES E ESTOQUE A CONFIRMAR] [AUTORIZAÇÃO DE USO DAS FOTOS DE PRODUTO A CONFIRMAR]
+
+=====================================================
+4. QUAL É O SEU PASSO (ferramenta 1)
+Seção: Qual é o seu passo
+Título: Conte o seu dia. A gente sugere o par.
+Subtítulo: Três perguntas rápidas e você vê três modelos para começar a conversa.
+Pergunta 1: Para onde vão os seus pés hoje? Trabalho | Passeio | Festa | Dia a dia
+Pergunta 2: O que você quer calçar? Sandália | Tênis | Bota | Mule ou sapatilha | Surpreenda-me
+Pergunta 3: Qual cor combina com você? Branco | Bege e nude | Caramelo | Preto | Qualquer uma
+Resultado: Para o seu dia, olha o que separamos. (3 modelos, com o botão "Guardar na minha seleção" e "Refazer")
+Botão: Perguntar ao WhatsApp sobre estes modelos
+Aviso: É uma sugestão visual. A loja confirma a disponibilidade, a numeração e as cores. [OCASIÕES E SUGESTÕES A REVISAR PELA LOJA]
+Mensagem do WhatsApp: Olá! Vi o site da Futura. Meu dia: [..]. Tipo: [..] ("sem preferência" quando escolhe Surpreenda-me). Cor: [..] ("sem preferência" quando escolhe Qualquer uma). Gostei destes modelos: [..]. Vocês têm?
+
+=====================================================
+5. MINHA SELEÇÃO (ferramenta 2, gaveta)
+Título: Minha seleção
+Texto vazio: Toque no coração das fotos para guardar os modelos de que você gostou.
+Campos: Numeração (opcional) | Seu nome (opcional)
+Botão: Enviar a seleção pelo WhatsApp
+Botão secundário: Limpar a seleção
+Mensagem do WhatsApp: Olá! Vi o site da Futura e gostei destes modelos: [lista]. Numeração: [..]. Vocês têm disponível?
+Aviso: Sua seleção fica só neste aparelho. Nenhum dado é enviado para o site.
+
+=====================================================
+6. COMPRE SEM SAIR DE CASA
+Seção: Compre sem sair de casa
+Título: A loja vai até você.
+Subtítulo: Escolha pelo site, converse pelo WhatsApp e receba ou retire.
+Passo 1 - Escolha: Veja a coleção e guarde os modelos de que gostou.
+Passo 2 - Converse: Mande a sua seleção pelo WhatsApp.
+Passo 3 - Receba ou retire: Entrega ou retirada na loja. [ÁREA DE ENTREGA, PRAZO E FORMA DE PAGAMENTO A CONFIRMAR]
+Botão: Falar no WhatsApp
+Cartão do grupo: Entre no grupo de ofertas no WhatsApp. [O QUE O GRUPO ENVIA A CONFIRMAR] (sem descrever o conteúdo do grupo)
+Botão: Entrar no grupo
+Cartão da loja online: título "Loja online." e [LOJA ONLINE A CONFIRMAR] (o Maps mostra lojavirtualnuvem.com.br, que parece genérico; observação só na ficha)
+
+=====================================================
+7. A LOJA
+Seção: A loja
+Título: Atendimento que faz você se sentir em casa.
+Texto: Trabalhamos todos os dias para oferecer calçados femininos, modelos confortáveis e um atendimento que faça você se sentir em casa.
+Destaques: Calçados e acessórios | Retirada na loja | Entrega | Empresa de empreendedoras | Acolhe a comunidade LGBTQ+
+Nota: [HISTÓRIA DA LOJA, ANO DE ABERTURA E NOME DAS DONAS A CONFIRMAR] [FOTOS DA LOJA SEM PESSOAS A CONFIRMAR]
+
+=====================================================
+8. AVALIAÇÕES
+Seção: Avaliações
+Título: Quem já passou por aqui.
+Subtítulo: Nota 4,5 no Google, com 8 avaliações.
+Avaliação 1 (Cristiane F., avaliação no Google): "Muito bom atendimento, muita variedade de marcas e modelos"
+Avaliação 2 (Hemily L., avaliação no Google): "Loja excelente! Boa localização e excelente atendimento!"
+Avaliação 3 (Vanessa R., avaliação no Google): "Excelente muita variedade de calçados, excelente atendimento."
+Botão: Ver no Google
+Nota: [AUTORIZAÇÃO PARA USAR AS AVALIAÇÕES A CONFIRMAR] (nomes reduzidos)
+
+=====================================================
+9. CONTATO
+Seção: Contato
+Título: Venha experimentar.
+Endereço: R. Prof. Azarias Ribeiro, 68 · Centro · Lavras/MG · CEP 37200-000
+WhatsApp: (35) 99876-9175
+Horário: [HORÁRIO A CONFIRMAR] (o Google Maps mostra abertura às 9h)
+Formas de comprar: Na loja · Retirada na loja · Entrega
+Instagram: @futuracalcados
+Botões: Chamar no WhatsApp | Entrar no grupo de ofertas
+
+=====================================================
+10. CHAMADA FINAL
+Título: Tendência, conforto e estilo em cada passo.
+Texto: Guarde os modelos que você gostou e fale com a Futura.
+Botão: Falar no WhatsApp
+
+=====================================================
+RODAPÉ
+Futura Calçados e Acessórios. Lavras/MG.
+Contato: WhatsApp (35) 99876-9175 · Instagram @futuracalcados
+Endereço: R. Prof. Azarias Ribeiro, 68 · Centro · Lavras/MG
+Site produzido por Connect Alpha
+
+=====================================================
+NOTAS DE REVISÃO
+A foto da botinha preta de couro foi recortada para não mostrar a tatuagem do tornozelo.
+O .gitignore deixa de fora Imagens/, Fotos/ e Info copy/ (originais de terceiros, prints com pessoas e nomes completos de avaliadores).
+Ao publicar: usar endereço absoluto no og:image e no twitter:image.
+
+=====================================================
+PENDÊNCIAS [A CONFIRMAR]
+1. Nomes dos modelos e das marcas (as fotos mostram Sua Cia, Karmelia, Via Scarpa e outras), valores e estoque; autorização de uso das fotos de produto (parecem de campanhas das marcas e de postagens da loja)
+2. Horário completo (o Maps mostra só abertura às 9h; o 7.7 teve horário especial), área de entrega, prazo, forma de pagamento
+3. Loja online: o Maps mostra lojavirtualnuvem.com.br; confirmar se existe e qual é o endereço
+4. O que o grupo de ofertas do WhatsApp envia
+5. Quem é a dona (nome, história, ano de abertura) e fotos da loja sem pessoas
+6. Autorização das duas fotos com o rosto de pessoas na loja (guardadas em Fotos/_com-rosto-nao-usadas, não usadas no site)
+7. Autorização para usar as avaliações (nomes reduzidos)
+8. Logo em alta resolução (150 px; a demo usa uma versão ampliada, sem o fundo)
+9. A "Seleção" e o "Qual é o seu passo" sugerem modelos pela foto e pelo estilo; a loja confirma o que tem

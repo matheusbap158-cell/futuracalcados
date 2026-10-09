@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design system | Futura Calçados</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sand-50:#FAF5EE; --sand-100:#F2E8DA; --sand-200:#E7D6BF; --nude-300:#D9B99B;
+  --caramel-300:#E3B07A; --caramel-500:#C27B3E; --caramel-700:#8A4C1C;
+  --ink-900:#17110D; --ink-800:#2A201A; --muted:#6B5B4E;
+  --red-700:#8E1B27; --line:#E2D3BF;
+  --wa-500:#25D366; --alert-600:#B3261E;
+  --font-display:'Instrument Serif',Georgia,serif;
+  --font-body:'DM Sans',-apple-system,'Segoe UI',sans-serif;
+  --r-sm:4px; --r-pill:999px;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--sand-50);color:var(--ink-900);font-family:var(--font-body);font-size:17px;line-height:1.7}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--font-display);font-weight:400;margin:0}
+h1{font-size:clamp(50px,9vw,104px);line-height:.95}
+h1 em,h2 em{font-style:italic;color:var(--caramel-700)}
+h2{font-size:clamp(38px,6vw,64px);line-height:1;margin-bottom:8px}
+.lab{font-weight:700;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--caramel-700)}
+header{background:var(--ink-900);color:var(--sand-50);padding:72px 0 56px}
+header .lab{color:var(--caramel-300)}
+header em{color:var(--caramel-300)}
+header p{max-width:40rem;color:#E1D3BF}
+section{padding:64px 0;border-bottom:1px solid var(--line)}
+.sub{color:var(--muted);max-width:44rem;margin:0 0 30px}
+.sw-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:16px}
+.sw{background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:0;text-align:left;cursor:pointer;color:inherit;font:inherit;overflow:hidden}
+.sw:focus-visible,.btn:focus-visible,.chip:focus-visible,input:focus-visible{outline:2px solid var(--ink-900);outline-offset:3px}
+.sw i{display:block;height:80px;border-bottom:1px solid var(--line)}
+.sw span{display:block;padding:12px 14px}
+.sw b{display:block;font-weight:700;font-size:15px}
+.sw code{font-size:13px;color:var(--caramel-700);font-weight:500}
+.sw small{display:block;color:var(--muted);font-size:12.5px;line-height:1.4;margin-top:4px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink-900);color:var(--caramel-300);padding:10px 20px;border-radius:var(--r-pill);font-weight:700;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.on{opacity:1}
+.type-row{display:grid;grid-template-columns:160px 1fr;gap:20px;align-items:baseline;padding:20px 0;border-top:1px solid var(--line)}
+.type-row small{color:var(--muted);font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+@media (max-width:640px){.type-row{grid-template-columns:1fr;gap:4px}}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 30px;border-radius:var(--r-pill);font:700 14px var(--font-body);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1.5px solid transparent;cursor:pointer;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--ink-900);color:var(--sand-50)}
+.btn-primary:hover{background:var(--ink-800)}
+.btn-ghost{background:transparent;color:var(--ink-900);border-color:var(--ink-900)}
+.btn-wa{background:var(--wa-500);color:var(--ink-900)}
+.row{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.dark{background:var(--ink-900);padding:26px;border-radius:var(--r-sm)}
+.dark .btn-ghost{color:var(--sand-50);border-color:var(--sand-50)}
+.chip{border:1.5px solid var(--ink-900);background:transparent;color:var(--ink-900);padding:10px 22px;min-height:44px;font:500 15px var(--font-body);cursor:pointer;border-radius:var(--r-pill)}
+.chip[aria-pressed="true"]{background:var(--ink-900);color:var(--sand-50)}
+.heart{width:44px;height:44px;border-radius:50%;border:0;background:rgba(250,245,238,.92);cursor:pointer;display:grid;place-items:center}
+.heart svg{width:22px;height:22px;fill:none;stroke:var(--ink-900);stroke-width:2}
+.heart[aria-pressed="true"] svg{fill:var(--red-700);stroke:var(--red-700)}
+label{display:block;font-weight:700;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--caramel-700);margin-bottom:4px}
+input{width:100%;height:52px;background:transparent;color:var(--ink-900);border:0;border-bottom:1.5px solid var(--ink-900);padding:0 2px;font:400 18px var(--font-body);border-radius:0}
+input:focus{border-bottom-width:3px;outline:none}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
+.arch{position:relative;aspect-ratio:3/4;border-radius:999px 999px 6px 6px;overflow:hidden;background:linear-gradient(160deg,var(--nude-300),var(--caramel-300));display:grid;place-items:center;font-family:var(--font-display);font-style:italic;font-size:26px;color:var(--ink-900)}
+.arch .heart{position:absolute;right:14px;bottom:14px}
+.pend{display:inline-block;border:1px dashed currentColor;padding:0 8px;font-size:.8em}
+pre{background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:20px;overflow:auto;font:13px/1.6 ui-monospace,Consolas,monospace}
+ul.rules{padding-left:20px;color:var(--muted)}
+ul.rules li{margin-bottom:6px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="lab">Connect Alpha · Design system</div>
+    <h1 style="margin:18px 0">Futura <em>calçados</em></h1>
+    <p>Revista de estilo: areia, nude e caramelo, preto no texto, arcos nas fotos e tipografia serifada em itálico. Clique numa amostra para copiar o código.</p>
+  </div>
+</header>
+<main>
+<section aria-labelledby="t-cores"><div class="wrap">
+  <h2 id="t-cores">1. Cores</h2>
+  <p class="sub">O caramelo #C27B3E nunca é cor de texto sobre areia (use #8A4C1C). O verde do WhatsApp é exclusivo do botão e leva texto preto.</p>
+  <div class="sw-grid" id="sw"></div>
+</div></section>
+
+<section aria-labelledby="t-tipo"><div class="wrap">
+  <h2 id="t-tipo">2. Tipografia</h2>
+  <div class="type-row"><small>H1 · 104/54</small><h1 style="font-size:clamp(46px,8vw,92px)">Tendência, conforto e <em>estilo</em> em cada passo.</h1></div>
+  <div class="type-row"><small>H2 · 64/40</small><h2>Qual é o seu <em>passo?</em></h2></div>
+  <div class="type-row"><small>H3 · 30/26</small><h3 style="font-size:30px">Mule trançada off-white</h3></div>
+  <div class="type-row"><small>Corpo · 18/16</small><p style="margin:0;max-width:38rem">Calçados femininos para o dia a dia, o trabalho e as ocasiões especiais.</p></div>
+  <div class="type-row"><small>Rótulo</small><span class="lab">Sandálias · Tênis · Botas</span></div>
+</div></section>
+
+<section aria-labelledby="t-comp"><div class="wrap">
+  <h2 id="t-comp">3. Componentes</h2>
+  <h3 style="font-size:28px;margin-bottom:14px">Botões</h3>
+  <div class="row" style="margin-bottom:18px"><a class="btn btn-primary" href="#t-comp">Ver a coleção</a><a class="btn btn-ghost" href="#t-comp">Minha seleção</a><a class="btn btn-wa" href="#t-comp">Falar no WhatsApp</a></div>
+  <div class="dark row" style="margin-bottom:36px"><a class="btn btn-wa" href="#t-comp">Falar no WhatsApp</a><a class="btn btn-ghost" href="#t-comp">Ver a coleção</a></div>
+  <h3 style="font-size:28px;margin-bottom:14px">Filtros e campos</h3>
+  <div class="row" id="chips" style="margin-bottom:28px"><button class="chip" aria-pressed="true">Tudo</button><button class="chip" aria-pressed="false">Sandálias</button><button class="chip" aria-pressed="false">Tênis</button><button class="chip" aria-pressed="false">Botas</button></div>
+  <div class="grid3" style="margin-bottom:40px"><div><label for="f1">Seu nome</label><input id="f1"></div><div><label for="f2">Numeração</label><input id="f2" placeholder="Ex.: 37"></div></div>
+  <h3 style="font-size:28px;margin-bottom:14px">Foto em arco com coração</h3>
+  <div class="grid3" style="max-width:640px">
+    <div class="arch">Foto do modelo<button class="heart" id="h1" aria-pressed="false" aria-label="Guardar na minha seleção"><svg viewBox="0 0 24 24"><path d="M12 21s-7.500-4.700-9.500-9.500C1.200 8 3.200 4.500 6.800 4.500c2 0 3.500 1 5.200 3 1.700-2 3.200-3 5.200-3 3.600 0 5.600 3.500 4.300 7C19.500 16.300 12 21 12 21z"/></svg></button></div>
+    <div class="arch">Pendência <span class="pend" style="font-size:16px;margin-left:8px">[A CONFIRMAR]</span></div>
+  </div>
+</div></section>
+
+<section aria-labelledby="t-est"><div class="wrap">
+  <h2 id="t-est">4. Estética</h2>
+  <ul class="rules">
+    <li>Arcos nas fotos, pílulas nos botões, cantos de 4 px nos cartões.</li>
+    <li>Quase sem sombra; a profundidade vem do contraste e da foto grande.</li>
+    <li>Espaçamento em múltiplos de 8, com seções amplas.</li>
+    <li>Faixa em movimento, selo giratório e parallax leve, desligados em <code>prefers-reduced-motion</code>.</li>
+  </ul>
+</div></section>
+
+<section aria-labelledby="t-wa"><div class="wrap">
+  <h2 id="t-wa">5. Conversão para WhatsApp</h2>
+  <ul class="rules">
+    <li>"Minha seleção": a cliente favorita fotos e envia a lista pronta.</li>
+    <li>"Qual é o seu passo": três perguntas e três sugestões que viram mensagem.</li>
+    <li>Grupo de ofertas como segunda porta de entrada.</li>
+    <li>Sem preço, desconto, prazo ou estoque prometido.</li>
+  </ul>
+</div></section>
+
+<section aria-labelledby="t-css"><div class="wrap"><h2 id="t-css">Tokens prontos (CSS)</h2><pre id="css"></pre></div></section>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite">Copiado</div>
+<script>
+(function(){
+  var cores=[
+    ['Areia','--sand-50','#FAF5EE','Fundo padrão'],
+    ['Areia 2','--sand-100','#F2E8DA','Seções alternadas'],
+    ['Areia 3','--sand-200','#E7D6BF','Bordas e chips'],
+    ['Nude','--nude-300','#D9B99B','Detalhes e arcos'],
+    ['Caramelo','--caramel-500','#C27B3E','Gráficos, não texto'],
+    ['Caramelo texto','--caramel-700','#8A4C1C','Texto sobre areia (6,4:1)'],
+    ['Caramelo claro','--caramel-300','#E3B07A','Sobre fundo escuro (9:1)'],
+    ['Preto quente','--ink-900','#17110D','Texto e botão principal'],
+    ['Marrom','--ink-800','#2A201A','Cartões em fundo escuro'],
+    ['Texto secundário','--muted','#6B5B4E','Apoio (6:1)'],
+    ['Vermelho','--red-700','#8E1B27','Único acento forte'],
+    ['Linha','--line','#E2D3BF','Divisores'],
+    ['WhatsApp','--wa-500','#25D366','Exclusivo do botão'],
+    ['Alerta','--alert-600','#B3261E','Erro']
+  ];
+  var host=document.getElementById('sw');
+  cores.forEach(function(c){
+    var b=document.createElement('button');b.className='sw';b.type='button';
+    b.setAttribute('aria-label','Copiar '+c[0]+' '+c[2]);
+    b.innerHTML='<i style="background:'+c[2]+'"></i><span><b>'+c[0]+'</b><code>'+c[2]+'</code><small>'+c[1]+' · '+c[3]+'</small></span>';
+    b.addEventListener('click',function(){
+      var t=document.getElementById('toast');
+      function ok(){t.textContent='Copiado: '+c[2];t.classList.add('on');setTimeout(function(){t.classList.remove('on')},1400)}
+      if(navigator.clipboard){navigator.clipboard.writeText(c[2]).then(ok,ok)}else{ok()}
+    });
+    host.appendChild(b);
+  });
+  document.querySelectorAll('#chips .chip').forEach(function(ch){
+    ch.addEventListener('click',function(){ document.querySelectorAll('#chips .chip').forEach(function(o){o.setAttribute('aria-pressed','false')}); ch.setAttribute('aria-pressed','true'); });
+  });
+  var h=document.getElementById('h1'); h.addEventListener('click',function(){ h.setAttribute('aria-pressed',String(h.getAttribute('aria-pressed')!=='true')); });
+  document.getElementById('css').textContent=':root{\n'+cores.map(function(c){return '  '+c[1]+':'+c[2]+';'}).join('\n')+'\n  --font-display:\'Instrument Serif\',Georgia,serif;\n  --font-body:\'DM Sans\',-apple-system,\'Segoe UI\',sans-serif;\n  --r-sm:4px; --r-pill:999px;\n}';
+})();
+</script>
+</body>
+</html>
